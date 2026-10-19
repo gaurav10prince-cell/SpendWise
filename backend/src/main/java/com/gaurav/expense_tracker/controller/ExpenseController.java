@@ -19,9 +19,10 @@ import com.gaurav.expense_tracker.repository.ExpenseRepository;
 @RestController
 @RequestMapping("/api/expenses")
 @CrossOrigin(origins = {
-    "http://localhost:5173",
-    "https://spendwise-two-sepia.vercel.app"
+"http://localhost:5173",
+"https://spendwise-two-sepia.vercel.app"
 })
+
 
 public class ExpenseController {
 
